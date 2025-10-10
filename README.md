@@ -29,7 +29,14 @@
 - `week06_demo2_longterm_memory1.py`: Demonstrate storing and retrieving simple long-term memories.
 - `week06_demo2_longterm_memory2.py`: Extend long-term memory store and query by metadata filter.
 - `week06_demo3_shortterm_memory.py`: Illustrate short-term memory checkpointing across conversation turns.
-- `week06_demo4_longterm_memory_semantic.py`: Show semantic memory retrieval using vector embeddings.
+ - `week06_demo4_longterm_memory_semantic.py`: Show semantic memory retrieval using vector embeddings.
+
+## Week 07 Demos
+
+- `week07_demo1_uniprot.py`: Fetch protein names and function annotations from UniProt for kinases and save to CSV.
+- `week07_demo2_create_vectordb.py`: Create a Qdrant collection and populate it with embeddings of kinase functions using OpenAIEmbeddings.
+- `week07_demo3_rag.py`: Perform retrieval-augmented generation by querying kinase function vectors in Qdrant and answering biology questions with ChatOpenAI.
+- `week07_demo4_agentic_rag.py`: Agentic RAG example: build a REACT agent with LangGraph to search kinase functions and answer biology questions.
 
  # Helpers and Tests
 
