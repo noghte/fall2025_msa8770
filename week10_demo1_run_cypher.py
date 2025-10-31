@@ -43,12 +43,39 @@ def clean_cypher(cypher):
     return c
 
 def question_to_cypher(question):
+    NODE_INFORMATION = """
+    [
+  {
+    identity: -100,
+    labels: ["Movie"],
+    properties: {
+      name: "Movie",
+      indexes: [],
+      constraints: ["Constraint( id=3, name='movie_title', type='NODE PROPERTY UNIQUENESS', schema=(:Movie {title}), ownedIndex=2 )"]
+    },
+    elementId: "-100"
+  },
+  {
+    identity: -101,
+    labels: ["Person"],
+    properties: {
+      name: "Person",
+      indexes: [],
+      constraints: ["Constraint( id=5, name='person_name', type='NODE PROPERTY UNIQUENESS', schema=(:Person {name}), ownedIndex=4 )"]
+    },
+    elementId: "-101"
+  }
+]
+    """
+
     prompt =f"""
     Convert the user question into a valid Cypher query.
     Rules:
     1. Return ONLY the Cypher query, nothing else.
     2. Do not include any markdown or explanations.
     3. Include LIMIT 10 by default.
+   
+    Node types: {NODE_INFORMATION}
 
     Question: {question}
 
