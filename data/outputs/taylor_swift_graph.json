@@ -1,0 +1,1823 @@
+{
+  "graphs": [
+    {
+      "song_title": "cardigan",
+      "song_properties": {
+        "artist": "Taylor Swift",
+        "album": "folklore",
+        "year": "2020.0",
+        "song_index": "0"
+      },
+      "entities": [
+        {
+          "name": "i",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "you",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "peter",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "wendy",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "cobblestones",
+          "type": "Location",
+          "properties": {
+            "type": "street"
+          }
+        },
+        {
+          "name": "high line",
+          "type": "Location",
+          "properties": {
+            "type": "landmark"
+          }
+        },
+        {
+          "name": "front porch light",
+          "type": "Location",
+          "properties": {
+            "type": "venue"
+          }
+        },
+        {
+          "name": "old cardigan",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "favorite",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "bloodstain",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "tattoo kiss",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "whatifs",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "smell of smoke",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "shadows",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "thrill",
+          "type": "Attribute",
+          "properties": {}
+        }
+      ],
+      "relationships": [
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "you",
+          "target_type": "Person",
+          "relationship_type": "KNEW",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "old cardigan",
+          "target_type": "Attribute",
+          "relationship_type": "FELT_LIKE",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "old cardigan",
+          "target_type": "Attribute",
+          "relationship_type": "PUT_ON",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "favorite",
+          "target_type": "Attribute",
+          "relationship_type": "SAID",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "cobblestones",
+          "target_type": "Location",
+          "relationship_type": "DANCED_ON",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "high line",
+          "target_type": "Location",
+          "relationship_type": "HEARTBEAT_ON",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "front porch light",
+          "target_type": "Location",
+          "relationship_type": "STANDIN",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "whatifs",
+          "target_type": "Attribute",
+          "relationship_type": "HAUNT",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "bloodstain",
+          "target_type": "Attribute",
+          "relationship_type": "MARKED",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "tattoo kiss",
+          "target_type": "Attribute",
+          "relationship_type": "LINGERED_LIKE",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "shadows",
+          "target_type": "Attribute",
+          "relationship_type": "CHASING",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "thrill",
+          "target_type": "Attribute",
+          "relationship_type": "CURSED",
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "song_title": "exile",
+      "song_properties": {
+        "artist": "Taylor Swift",
+        "album": "folklore",
+        "year": "2020.0",
+        "song_index": "1"
+      },
+      "entities": [
+        {
+          "name": "justin vernon",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "taylor swift",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "exile",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "honey",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "arms",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "love",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "town",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "side door",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "film",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "signs",
+          "type": "Attribute",
+          "properties": {}
+        }
+      ],
+      "relationships": [
+        {
+          "source": "justin vernon",
+          "source_type": "Person",
+          "target": "exile",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "exile",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "justin vernon",
+          "source_type": "Person",
+          "target": "honey",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "justin vernon",
+          "source_type": "Person",
+          "target": "arms",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "justin vernon",
+          "source_type": "Person",
+          "target": "love",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "justin vernon",
+          "source_type": "Person",
+          "target": "town",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "justin vernon",
+          "source_type": "Person",
+          "target": "side door",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "justin vernon",
+          "source_type": "Person",
+          "target": "film",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "justin vernon",
+          "source_type": "Person",
+          "target": "signs",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "honey",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "arms",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "love",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "town",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "side door",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "film",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "signs",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "justin vernon",
+          "source_type": "Person",
+          "target": "taylor swift",
+          "target_type": "Person",
+          "relationship_type": "COLLABORATED_WITH",
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "song_title": "Lover",
+      "song_properties": {
+        "artist": "Taylor Swift",
+        "album": "Lover",
+        "year": "2019.0",
+        "song_index": "2"
+      },
+      "entities": [
+        {
+          "name": "we",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "you",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "dear",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "everyone",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "honey",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "ladies and gentlemen",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "my lover",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "our place",
+          "type": "Location",
+          "properties": {
+            "type": "place"
+          }
+        },
+        {
+          "name": "living room",
+          "type": "Location",
+          "properties": {
+            "type": "room"
+          }
+        },
+        {
+          "name": "my heart",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "borrowed",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "blue",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "overdramatic",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "true",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "dirtiest jokes",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "every table",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "dazzling haze",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "mysterious way",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "highly suspicious",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "magnetic force",
+          "type": "Attribute",
+          "properties": {}
+        }
+      ],
+      "relationships": [
+        {
+          "source": "we",
+          "source_type": "Person",
+          "target": "our place",
+          "target_type": "Location",
+          "relationship_type": "MAKES_RULES",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "dear",
+          "target_type": "Person",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "we",
+          "source_type": "Person",
+          "target": "our place",
+          "target_type": "Location",
+          "relationship_type": "LEAVES_LIGHTS_UP",
+          "properties": {}
+        },
+        {
+          "source": "we",
+          "source_type": "Person",
+          "target": "friends",
+          "target_type": "Person",
+          "relationship_type": "LET_CRASH_IN",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "you",
+          "target_type": "Person",
+          "relationship_type": "LOVES",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "my lover",
+          "target_type": "Person",
+          "relationship_type": "TAKES_OUT",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "my lover",
+          "target_type": "Person",
+          "relationship_type": "TAKES_HOME",
+          "properties": {}
+        },
+        {
+          "source": "my heart",
+          "source_type": "Attribute",
+          "target": "borrowed",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "my heart",
+          "source_type": "Attribute",
+          "target": "blue",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "my lover",
+          "source_type": "Person",
+          "target": "overdramatic",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "my lover",
+          "source_type": "Person",
+          "target": "true",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "my lover",
+          "source_type": "Person",
+          "target": "dirtiest jokes",
+          "target_type": "Attribute",
+          "relationship_type": "SAVES_FOR",
+          "properties": {}
+        },
+        {
+          "source": "my lover",
+          "source_type": "Person",
+          "target": "every table",
+          "target_type": "Attribute",
+          "relationship_type": "SAVES_SEAT_FOR",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "dazzling haze",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "mysterious way",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "highly suspicious",
+          "target_type": "Attribute",
+          "relationship_type": "FEELS",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "magnetic force",
+          "target_type": "Attribute",
+          "relationship_type": "TAKES_TO_BE",
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "song_title": "the 1",
+      "song_properties": {
+        "artist": "Taylor Swift",
+        "album": "folklore",
+        "year": "2020.0",
+        "song_index": "3"
+      },
+      "entities": [
+        {
+          "name": "i",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "you",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "the greatest films of all time",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "the greatest loves of all time",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "rosé",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "the roaring twenties",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "the internet",
+          "type": "Location",
+          "properties": {
+            "type": "virtual"
+          }
+        }
+      ],
+      "relationships": [
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "you",
+          "target_type": "Person",
+          "relationship_type": "WANTED",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "the greatest films of all time",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "the greatest loves of all time",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "the roaring twenties",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "the internet",
+          "target_type": "Location",
+          "relationship_type": "MET_ON",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "i",
+          "target_type": "Person",
+          "relationship_type": "PERSISTED",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "rosé",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONED",
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "song_title": "Look What You Made Me Do",
+      "song_properties": {
+        "artist": "Taylor Swift",
+        "album": "reputation",
+        "year": "2017.0",
+        "song_index": "4"
+      },
+      "entities": [
+        {
+          "name": "i",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "you",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "honey",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "the old taylor",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "the world",
+          "type": "Location",
+          "properties": {
+            "type": "concept"
+          }
+        },
+        {
+          "name": "karma",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "perfect crime",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "little games",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "tilted stage",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "bad dreams",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "kingdom keys",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "list of names",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "red underlined",
+          "type": "Attribute",
+          "properties": {}
+        }
+      ],
+      "relationships": [
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "the old taylor",
+          "target_type": "Person",
+          "relationship_type": "IS",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "you",
+          "target_type": "Person",
+          "relationship_type": "DOES_NOT_LIKE",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "the world",
+          "target_type": "Location",
+          "relationship_type": "THINKS_ABOUT",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "karma",
+          "target_type": "Attribute",
+          "relationship_type": "THINKS_ABOUT",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "list of names",
+          "target_type": "Attribute",
+          "relationship_type": "HAS",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "red underlined",
+          "target_type": "Attribute",
+          "relationship_type": "HAS",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "perfect crime",
+          "target_type": "Attribute",
+          "relationship_type": "DOES_NOT_LIKE",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "little games",
+          "target_type": "Attribute",
+          "relationship_type": "DOES_NOT_LIKE",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "tilted stage",
+          "target_type": "Attribute",
+          "relationship_type": "DOES_NOT_LIKE",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "bad dreams",
+          "target_type": "Attribute",
+          "relationship_type": "WILL_BE",
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "song_title": "betty",
+      "song_properties": {
+        "artist": "Taylor Swift",
+        "album": "folklore",
+        "year": "2020.0",
+        "song_index": "5"
+      },
+      "entities": [
+        {
+          "name": "betty",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "inez",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "james",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "you",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "seventeen",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "garden",
+          "type": "Location",
+          "properties": {
+            "type": "landmark"
+          }
+        },
+        {
+          "name": "your house",
+          "type": "Location",
+          "properties": {
+            "type": "building"
+          }
+        },
+        {
+          "name": "the gym",
+          "type": "Location",
+          "properties": {
+            "type": "venue"
+          }
+        },
+        {
+          "name": "the porch",
+          "type": "Location",
+          "properties": {
+            "type": "landmark"
+          }
+        },
+        {
+          "name": "the streetlight",
+          "type": "Location",
+          "properties": {
+            "type": "landmark"
+          }
+        },
+        {
+          "name": "broken cobblestones",
+          "type": "Location",
+          "properties": {
+            "type": "landmark"
+          }
+        }
+      ],
+      "relationships": [
+        {
+          "source": "betty",
+          "source_type": "Person",
+          "target": "you",
+          "target_type": "Person",
+          "relationship_type": "MISSES",
+          "properties": {}
+        },
+        {
+          "source": "betty",
+          "source_type": "Person",
+          "target": "your house",
+          "target_type": "Location",
+          "relationship_type": "PASSED_BY",
+          "properties": {}
+        },
+        {
+          "source": "betty",
+          "source_type": "Person",
+          "target": "the gym",
+          "target_type": "Location",
+          "relationship_type": "HEARD_SONG_IN",
+          "properties": {}
+        },
+        {
+          "source": "betty",
+          "source_type": "Person",
+          "target": "garden",
+          "target_type": "Location",
+          "relationship_type": "LEAD_TO",
+          "properties": {}
+        },
+        {
+          "source": "betty",
+          "source_type": "Person",
+          "target": "inez",
+          "target_type": "Person",
+          "relationship_type": "HEARD_RUMORS_FROM",
+          "properties": {}
+        },
+        {
+          "source": "james",
+          "source_type": "Person",
+          "target": "you",
+          "target_type": "Person",
+          "relationship_type": "DREAMT_OF",
+          "properties": {}
+        },
+        {
+          "source": "betty",
+          "source_type": "Person",
+          "target": "the porch",
+          "target_type": "Location",
+          "relationship_type": "KISSED_ON",
+          "properties": {}
+        },
+        {
+          "source": "betty",
+          "source_type": "Person",
+          "target": "the streetlight",
+          "target_type": "Location",
+          "relationship_type": "STOPPED_AT",
+          "properties": {}
+        },
+        {
+          "source": "betty",
+          "source_type": "Person",
+          "target": "broken cobblestones",
+          "target_type": "Location",
+          "relationship_type": "WALKED_ON",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "seventeen",
+          "target_type": "Attribute",
+          "relationship_type": "AGE",
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "song_title": "End Game",
+      "song_properties": {
+        "artist": "Taylor Swift",
+        "album": "reputation",
+        "year": "2017.0",
+        "song_index": "6"
+      },
+      "entities": [
+        {
+          "name": "taylor swift",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "future",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "ed sheeran",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "you",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "me",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "big reputation",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "bad ones",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "g5",
+          "type": "Location",
+          "properties": {
+            "type": "aircraft"
+          }
+        },
+        {
+          "name": "beach",
+          "type": "Location",
+          "properties": {
+            "type": "landmark"
+          }
+        },
+        {
+          "name": "storm",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "4th of july",
+          "type": "Location",
+          "properties": {
+            "type": "event"
+          }
+        }
+      ],
+      "relationships": [
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "future",
+          "target_type": "Person",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "future",
+          "source_type": "Person",
+          "target": "taylor swift",
+          "target_type": "Person",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "ed sheeran",
+          "target_type": "Person",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "ed sheeran",
+          "source_type": "Person",
+          "target": "taylor swift",
+          "target_type": "Person",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "big reputation",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "me",
+          "source_type": "Person",
+          "target": "big reputation",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "beach",
+          "target_type": "Location",
+          "relationship_type": "WANTS_TO_BE_ON",
+          "properties": {}
+        },
+        {
+          "source": "future",
+          "source_type": "Person",
+          "target": "g5",
+          "target_type": "Location",
+          "relationship_type": "TRAVELS_IN",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "storm",
+          "target_type": "Attribute",
+          "relationship_type": "MENTIONS",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "4th of july",
+          "target_type": "Location",
+          "relationship_type": "MENTIONS",
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "song_title": "ME!",
+      "song_properties": {
+        "artist": "Taylor Swift",
+        "album": "Lover",
+        "year": "2019.0",
+        "song_index": "7"
+      },
+      "entities": [
+        {
+          "name": "taylor swift",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "brendon urie",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "me",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "you",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "awesome",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "fun",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "team",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "rain",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "colors",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "summer",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "lovers",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "chicks",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "guys",
+          "type": "Attribute",
+          "properties": {}
+        }
+      ],
+      "relationships": [
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "me",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "brendon urie",
+          "source_type": "Person",
+          "target": "me",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "you",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "brendon urie",
+          "source_type": "Person",
+          "target": "you",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "awesome",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "brendon urie",
+          "source_type": "Person",
+          "target": "awesome",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "fun",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "brendon urie",
+          "source_type": "Person",
+          "target": "fun",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "team",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "brendon urie",
+          "source_type": "Person",
+          "target": "team",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "rain",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "brendon urie",
+          "source_type": "Person",
+          "target": "rain",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "colors",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "brendon urie",
+          "source_type": "Person",
+          "target": "colors",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "lovers",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "brendon urie",
+          "source_type": "Person",
+          "target": "lovers",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "chicks",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "brendon urie",
+          "source_type": "Person",
+          "target": "chicks",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "taylor swift",
+          "source_type": "Person",
+          "target": "guys",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "brendon urie",
+          "source_type": "Person",
+          "target": "guys",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "song_title": "You Need To Calm Down",
+      "song_properties": {
+        "artist": "Taylor Swift",
+        "album": "Lover",
+        "year": "2019.0",
+        "song_index": "8"
+      },
+      "entities": [
+        {
+          "name": "you",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "i",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "we",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "friends",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "internet",
+          "type": "Location",
+          "properties": {
+            "type": "virtual"
+          }
+        },
+        {
+          "name": "dark ages",
+          "type": "Location",
+          "properties": {
+            "type": "historical"
+          }
+        },
+        {
+          "name": "street",
+          "type": "Location",
+          "properties": {
+            "type": "public space"
+          }
+        },
+        {
+          "name": "parade",
+          "type": "Location",
+          "properties": {
+            "type": "event"
+          }
+        },
+        {
+          "name": "patrón",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "stressin'",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "obsessin'",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "shade",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "loud",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "glaad",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "peace",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "crown",
+          "type": "Attribute",
+          "properties": {}
+        }
+      ],
+      "relationships": [
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "i",
+          "target_type": "Person",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "friends",
+          "target_type": "Person",
+          "relationship_type": "MENTIONED_IN",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "internet",
+          "target_type": "Location",
+          "relationship_type": "APPEARS_IN",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "dark ages",
+          "target_type": "Location",
+          "relationship_type": "APPEARS_IN",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "street",
+          "target_type": "Location",
+          "relationship_type": "APPEARS_IN",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "parade",
+          "target_type": "Location",
+          "relationship_type": "APPEARS_IN",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "loud",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "glaad",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "peace",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "crown",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "stressin'",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "obsessin'",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "shade",
+          "source_type": "Attribute",
+          "target": "you",
+          "target_type": "Person",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "song_title": "august",
+      "song_properties": {
+        "artist": "Taylor Swift",
+        "album": "folklore",
+        "year": "2020.0",
+        "song_index": "9"
+      },
+      "entities": [
+        {
+          "name": "i",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "you",
+          "type": "Person",
+          "properties": {}
+        },
+        {
+          "name": "august",
+          "type": "Location",
+          "properties": {
+            "type": "moment in time"
+          }
+        },
+        {
+          "name": "school",
+          "type": "Location",
+          "properties": {
+            "type": "venue"
+          }
+        },
+        {
+          "name": "mall",
+          "type": "Location",
+          "properties": {
+            "type": "venue"
+          }
+        },
+        {
+          "name": "summer love",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "hope",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "memory",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "bedsheets",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "wine",
+          "type": "Attribute",
+          "properties": {}
+        },
+        {
+          "name": "plans",
+          "type": "Attribute",
+          "properties": {}
+        }
+      ],
+      "relationships": [
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "august",
+          "target_type": "Location",
+          "relationship_type": "LOST_IN",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "memory",
+          "target_type": "Attribute",
+          "relationship_type": "HAS_ATTRIBUTE",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "you",
+          "target_type": "Person",
+          "relationship_type": "THOUGHT_OF",
+          "properties": {}
+        },
+        {
+          "source": "you",
+          "source_type": "Person",
+          "target": "august",
+          "target_type": "Location",
+          "relationship_type": "NEVER_MINE",
+          "properties": {}
+        },
+        {
+          "source": "august",
+          "source_type": "Location",
+          "target": "wine",
+          "target_type": "Attribute",
+          "relationship_type": "SIPPED_AWAY_LIKE",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "bedsheets",
+          "target_type": "Attribute",
+          "relationship_type": "TWISTED_IN",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "school",
+          "target_type": "Location",
+          "relationship_type": "WILL_CALL_WHEN_BACK_AT",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "mall",
+          "target_type": "Location",
+          "relationship_type": "MEET_BEHIND",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "plans",
+          "target_type": "Attribute",
+          "relationship_type": "CANCELED",
+          "properties": {}
+        },
+        {
+          "source": "i",
+          "source_type": "Person",
+          "target": "hope",
+          "target_type": "Attribute",
+          "relationship_type": "LIVED_FOR",
+          "properties": {}
+        }
+      ]
+    }
+  ]
+}
