@@ -1,0 +1,31 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Taylor Swift Search</title>
+</head>
+<body>
+    <h2>Taylor Swift Lyrics Search</h2>
+    <input id="query" type="text" placeholder="Enter your search..." style="width: 300px;">
+    <button onclick="search()">Search</button>
+    <hr />
+    <pre id="output" style="background-color: yellow; font-size: larger;"></pre>
+    <script>
+        function search() {
+            const query = document.getElementById("query").value;
+            fetch("/api/search", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ query: query })
+            }).then(res => res.json())
+            .then(data => {
+                document.getElementById("output").innerText = data.results[0]["lyric_preview"]
+                    // JSON.stringify(data, null, 2);
+                    
+            })
+            .catch(err => {
+                document.getElementById("output").innerText = "Error: " + err;
+            });
+        }
+    </script>
+</body>    
+</html>
